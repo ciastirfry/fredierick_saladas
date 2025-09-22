@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fredierick Saladas — Portfolio</title>
+  <meta name="description" content="Energetic, minimalist, tech‑savvy portfolio of Fredierick Saladas: Senior DevOps Engineer & MSE candidate." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="container nav">
+    <div class="brand">FS</div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a class="cta" href="./assets/resume.pdf" target="_blank" rel="noopener">Download CV</a>
+    </nav>
+  </header>
+
+  <main class="container hero">
+    <img src="./assets/profile.png" alt="Fredierick Saladas portrait" class="avatar" />
+    <div class="hero-copy">
+      <h1>Fredierick Saladas</h1>
+      <p class="tagline">Senior DevOps Engineer • Cloud & Automation • MSE (Yoobee)</p>
+      
+      <div class="cta-row">
+        <a class="iconbtn" href="mailto:fredsaladas@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+            <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/>
+          </svg>
+        </a>
+        <a class="iconbtn" href="https://www.linkedin.com/in/fredierick-saladas/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0zM8 8h4.8v2.2h.07c.67-1.26 2.3-2.6 4.73-2.6C22.2 7.6 24 10 24 14.2V24h-5v-8.2c0-2-0.04-4.6-2.8-4.6-2.8 0-3.2 2.2-3.2 4.4V24H8z"/>
+          </svg>
+        </a>
+        <a class="iconbtn" href="https://github.com/ciastirfry" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+            <path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.35-1.78-1.35-1.78-1.1-.75.08-.73.08-.73 1.22.08 1.86 1.26 1.86 1.26 1.08 1.85 2.84 1.31 3.54 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.57.12-3.27 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.7.24 2.96.12 3.27.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.62-5.47 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.69.82.57A12 12 0 0 0 12 .5z"/>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <section id="about" class="container section">
+    <h2>About</h2>
+    <p>
+      Results‑oriented DevOps engineer with 9+ years designing, automating, and scaling infrastructure across AWS and Azure.
+      I build resilient CI/CD platforms, containerized workloads, and observability stacks—partnering with teams to ship
+      secure, high‑performance systems. Currently based in Auckland and completing a Master of Software Engineering.
+    </p>
+  </section>
+
+  <section id="expertise" class="container section">
+    <h2>Expertise</h2>
+    <ul class="cards">
+      <li>
+        <h3>Cloud Architecture</h3>
+        <p>Migrations to AWS/Azure, hybrid networking, IAM hardening, HA & DR.</p>
+      </li>
+      <li>
+        <h3>CI/CD Platforms</h3>
+        <p>Jenkins, GitLab CI, Azure DevOps; pipeline design, artifact management, policy gates.</p>
+      </li>
+      <li>
+        <h3>Containers & IaC</h3>
+        <p>Kubernetes, Docker/Podman, Terraform, Ansible, Helm, Packer.</p>
+      </li>
+      <li>
+        <h3>Observability</h3>
+        <p>Prometheus, Grafana, CloudWatch; SLOs, alerting, incident response.</p>
+      </li>
+      <li>
+        <h3>Cost & Reliability</h3>
+        <p>60% AWS cost reduction; 99.9% uptime across enterprise toolchains.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="skills" class="container section">
+    <h2>Skills</h2>
+    <div class="chip-grid">
+      <span class="chip">AWS</span><span class="chip">Azure</span><span class="chip">Kubernetes</span><span class="chip">Docker</span>
+      <span class="chip">Terraform</span><span class="chip">Ansible</span><span class="chip">Jenkins</span><span class="chip">GitLab CI</span>
+      <span class="chip">Azure DevOps</span><span class="chip">Prometheus</span><span class="chip">Grafana</span>
+      <span class="chip">Python</span><span class="chip">Bash</span><span class="chip">PowerShell</span><span class="chip">DevSecOps</span>
+    </div>
+  </section>
+
+  <section id="experience" class="container section">
+    <h2>Experience Highlights</h2>
+    <ul class="timeline">
+      <li>
+        <h3>Senior DevOps Engineer — Standard Chartered Bank (2019–2025)</h3>
+        <p>Owned enterprise CI/CD platforms (Jenkins, Bitbucket, Artifactory, SonarQube) with 99.9% uptime.
+        Led Azure DevOps pipeline migration and automated deployments across multi‑project environments.</p>
+      </li>
+      <li>
+        <h3>Application Consultant (DevOps) — Standard Chartered (2017–2019)</h3>
+        <p>Built hybrid cloud environments; automated provisioning with Ansible, Jenkins, Terraform.
+        Optimized performance and reliability for critical banking applications.</p>
+      </li>
+      <li>
+        <h3>Senior IT Infra Lead & DevOps — DBS Bank (2014–2017)</h3>
+        <p>Defined infra standards; delivered automated middleware release pipelines and mentored engineers.</p>
+      </li>
+    </ul>
+    <div class="resume-cta">
+      <a class="btn" href="./assets/resume.pdf" target="_blank" rel="noopener">View Full CV (PDF)</a>
+    </div>
+  </section>
+
+  <footer class="container footer">
+    <span>© <span id="year"></span> Fredierick Saladas</span>
+    <div class="footer-links">
+      <a href="mailto:fredsaladas@gmail.com">fredsaladas@gmail.com</a>
+      <a href="https://www.linkedin.com/in/fredierick-saladas/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
