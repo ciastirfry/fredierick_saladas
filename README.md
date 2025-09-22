@@ -2,8 +2,6 @@
 
 Welcome to my professional portfolio website — a minimalist, dark-mode showcase of my journey as a **Senior DevOps Engineer** and current **Master of Software Engineering (MSE)** candidate based in Auckland, New Zealand.
 
-![Portfolio Screenshot](./assets/profile.png)
-
 ## 🔗 Live Preview
 > Coming soon via GitHub Pages or custom domain.
 
